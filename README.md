@@ -1,18 +1,16 @@
-# Команды, чтобы не забыть
-
-----#Конфигурация
+----#Configure
 
 cmake --preset debug
 
 cmake --preset release
 
-----#Сборка
+----#Build
 
 cmake --build --preset debug
 
 cmake --build --preset release
 
-----#Запуск
+----#PowerOn, Example
 
 ./build/debug/bin/indexer --csv books.csv --index index
 
